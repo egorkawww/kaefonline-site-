@@ -3,7 +3,7 @@
   --line:rgba(255,255,255,.08); --line2:rgba(255,255,255,.14);
   --text:#f6eef2; --muted:#a8969f; --dim:#6f6168;
   --c1:#ff9a3c; --c2:#ff4f81; --grad:linear-gradient(120deg,var(--c1),var(--c2));
-  --smp:#7dff6a; --duel:#ffb347; --br:#c77dff;
+  --smp:#7dff6a; --duel:#ff3d2e; --br:#c77dff;
   --r:22px; --wrap:1180px;
   --display:"Unbounded",system-ui,sans-serif; --body:"Onest",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
 }
@@ -185,7 +185,7 @@ h2{font-family:var(--display);font-weight:700;font-size:clamp(30px,3.6vw,46px);l
 /* tiers teaser */
 .tiers{padding:90px 0 0}
 .tier-card{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center;padding:48px;border-radius:28px;overflow:hidden;
-  background:radial-gradient(120% 140% at 100% 0%,rgba(255,179,71,.16),transparent 55%),var(--panel);border:1px solid var(--line)}
+  background:radial-gradient(120% 140% at 100% 0%,rgba(255,61,46,.16),transparent 55%),var(--panel);border:1px solid var(--line)}
 .tier-copy p{color:var(--muted);margin-top:16px;font-size:17px;max-width:440px}
 .tier-btn{margin-top:24px}
 .tier-btn span{transition:transform .2s}
