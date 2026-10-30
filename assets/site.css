@@ -187,6 +187,9 @@ h2{font-family:var(--display);font-weight:700;font-size:clamp(30px,3.6vw,46px);l
 .tier-card{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center;padding:48px;border-radius:28px;overflow:hidden;
   background:radial-gradient(120% 140% at 100% 0%,rgba(255,179,71,.16),transparent 55%),var(--panel);border:1px solid var(--line)}
 .tier-copy p{color:var(--muted);margin-top:16px;font-size:17px;max-width:440px}
+.tier-btn{margin-top:24px}
+.tier-btn span{transition:transform .2s}
+.tier-btn:hover span{transform:translateX(4px)}
 .tier-ranks{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
 .tier-ranks span{display:grid;place-items:center;height:58px;border-radius:14px;font:800 17px var(--display);letter-spacing:-.01em;border:1px solid var(--line)}
 .t1{color:#ff5b5b;background:rgba(255,91,91,.12)}.t2{color:#ff9f40;background:rgba(255,159,64,.12)}.t3{color:#ffd84d;background:rgba(255,216,77,.1)}
