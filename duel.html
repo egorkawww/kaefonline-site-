@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KaefDuel — дуэли и рейтинг · KaefOnline</title>
+<meta name="description" content="KaefDuel — дуэли на KaefOnline: 11 китов, рейтинг ELO по каждому, ковбойские звания от Бродяги до Пистолеро, практика, боевой путь и арена FFA.">
+<meta name="theme-color" content="#0a070c">
+<meta property="og:title" content="KaefDuel — дуэли и рейтинг">
+<meta property="og:description" content="11 китов, ELO по каждому и звания от Бродяги до Пистолеро. Заходи на kaef.online.">
+<meta property="og:url" content="https://kaef.online/duel.html">
+<meta property="og:image" content="https://kaef.online/assets/shot-duel.webp">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css?v=5">
+<link rel="stylesheet" href="assets/mode.css?v=5">
+</head>
+<body class="duel-page">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13 1.4 11.5c-1-.3-1-1 .2-1.5L20.6 2.7c.9-.3 1.6.2 1.3 1.6Z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="3"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/leaf-256.webp" alt="" width="34" height="34"><span class="bw">Kaef<span>Online</span></span></a>
+    <nav class="nav">
+      <a href="./#modes">Режимы</a>
+      <a href="#kits">Киты</a>
+      <a href="#ranks">Звания</a>
+      <a class="btn small" href="https://t.me/KaefOnline"><svg><use href="#i-tg"/></svg>Telegram</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="mp-hero">
+    <div class="mp-hero-bg" aria-hidden="true"><img src="assets/shot-duel.webp" alt=""></div>
+    <div class="wrap">
+      <a class="back rv" href="./"><svg><use href="#i-back"/></svg>Все режимы</a>
+      <h1 class="rv d1"><span class="mp-word">KaefDuel</span><br>Дуэли на&nbsp;Диком Западе</h1>
+      <p class="lead rv d2">Один на один, на любом из 11 китов. У каждого кита свой рейтинг ELO, а по среднему — звание: от Бродяги до легендарного Пистолеро. Спавн — ковбойский городок, бой — на отдельной арене.</p>
+      <div class="mp-badges rv d3">
+        <span>11 китов</span><span>ELO по каждому киту</span><span>Практика</span><span>Арена FFA</span>
+      </div>
+      <div class="ip rv d4">
+        <button class="ip-box" type="button" data-copy="kaef.online" aria-label="Скопировать адрес kaef.online">
+          <span class="ip-label">Адрес · в хабе встань на площадку KaefDuel</span>
+          <span class="ip-value">kaef.online</span>
+          <span class="ip-btn"><svg class="ic-copy"><use href="#i-copy"/></svg><svg class="ic-ok"><use href="#i-check"/></svg><span data-copy-text>Скопировать</span></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp-feats" id="kits">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="kicker">Киты</span>
+        <h2>Выбери, чем драться</h2>
+        <p>Перед боем выбираешь кит и число раундов. Раскладку каждого кита можно настроить под себя в редакторе.</p>
+      </div>
+      <div class="kits">
+        <span class="rv">UHC</span><span class="rv d1">UHC Legacy</span><span class="rv d2">Sword</span><span class="rv d3">Axe</span>
+        <span class="rv">Mace</span><span class="rv d1">NPot</span><span class="rv d2">CrystalPvP</span><span class="rv d3">OP</span>
+        <span class="rv">SMP</span><span class="rv d1">Cart-LT</span><span class="rv d2">Cart-HT</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp-feats">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="kicker">Что есть на сервере</span>
+        <h2>Не просто «зашёл и подрался»</h2>
+      </div>
+      <div class="bento">
+        <article class="b b-wide rv">
+          <span class="b-emoji">📈</span>
+          <h3>Рейтинг ELO по каждому киту</h3>
+          <p>Все стартуют с 1000. Победа над сильным даёт больше, поражение слабому — отнимает больше. Свой рейтинг на мече не испортишь проигрышами на булаве.</p>
+          <div class="b-cmds"><code>/stats</code><code>/history</code></div>
+        </article>
+        <article class="b b-tall rv d1">
+          <span class="b-emoji">🎯</span>
+          <h3>Боевой путь</h3>
+          <p>Ежедневные задания приносят монеты, а за прогресс есть разовые награды.</p>
+          <div class="b-cmds"><code>/bp</code><code>/free</code></div>
+          <ul class="b-list"><li>Задания обновляются каждый день</li><li>Монеты и звание видно в скорборде</li></ul>
+        </article>
+        <article class="b rv">
+          <span class="b-emoji">🤖</span>
+          <h3>Практика</h3>
+          <p>Потренируйся на боте, прежде чем лезть в рейтинговый бой. Выйти — <code>/leave</code>.</p>
+        </article>
+        <article class="b rv d1">
+          <span class="b-emoji">🌀</span>
+          <h3>Арена FFA</h3>
+          <p><code>/ffa</code> — каждый сам за себя, когда не хочется ждать соперника.</p>
+        </article>
+        <article class="b rv">
+          <span class="b-emoji">👀</span>
+          <h3>Смотреть бои</h3>
+          <p><code>/spec</code> — наблюдай за чужой дуэлью и учись у сильных.</p>
+        </article>
+        <article class="b rv d1">
+          <span class="b-emoji">⚡</span>
+          <h3>Без лишнего ожидания</h3>
+          <p>Оба готовы — оба жмут Shift, и отсчёт 3-2-1 пропускается. Счёт раундов показывается прямо на экране.</p>
+        </article>
+        <article class="b rv d2">
+          <span class="b-emoji">🏹</span>
+          <h3>Тир на спавне</h3>
+          <p>Пока ждёшь соперника — постреляй из лука в ковбойском тире.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp-trims" id="ranks">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="kicker">Звания</span>
+        <h2>От Бродяги до Пистолеро</h2>
+        <p>Звание считается по среднему ELO на всех китах — чтобы подняться, придётся уметь драться не одним мечом.</p>
+      </div>
+      <ol class="ranks">
+        <li class="rv"><b>1</b>Бродяга</li><li class="rv d1"><b>2</b>Ковбой</li><li class="rv d2"><b>3</b>Стрелок</li><li class="rv d3"><b>4</b>Дуэлянт</li>
+        <li class="rv"><b>5</b>Наёмник</li><li class="rv d1"><b>6</b>Шериф</li><li class="rv d2"><b>7</b>Маршал</li><li class="rv d3 apex"><b>♛</b>Пистолеро</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="tiers">
+    <div class="wrap">
+      <div class="tier-card rv">
+        <div class="tier-copy">
+          <span class="kicker">Скоро</span>
+          <h2>Тир-лист KaefDuel</h2>
+          <p>Рейтинг лучших дуэлянтов сети по китам — с рангами HT/LT, очками и профилем каждого игрока.</p>
+        </div>
+        <div class="tier-ranks" aria-hidden="true">
+          <span class="t1">HT1</span><span class="t2">HT2</span><span class="t3">HT3</span><span class="t4">HT4</span><span class="t5">HT5</span><span class="t1 lt">LT1</span><span class="t2 lt">LT2</span><span class="t3 lt">LT3</span><span class="t4 lt">LT4</span><span class="t5 lt">LT5</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-final">
+    <div class="wrap">
+      <div class="cta-card mp-cta rv">
+        <img src="assets/leaf-256.webp" alt="" width="96" height="96">
+        <h2>Вызывай на <span class="mp-word">KaefDuel</span></h2>
+        <p class="cta-sub">Адрес <b>kaef.online</b> → в хабе встань на площадку дуэлей. Уже на SMP? Просто <code>/duel ник</code>.</p>
+        <div class="cta-row">
+          <button class="btn mp-btn" type="button" data-copy="kaef.online"><svg><use href="#i-copy"/></svg><span data-copy-text>Скопировать kaef.online</span></button>
+          <a class="btn ghost" href="https://t.me/KaefOnline"><svg><use href="#i-tg"/></svg>@KaefOnline</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/leaf-256.webp" alt="" width="26" height="26"><span class="bw">Kaef<span>Online</span></span></a>
+    <nav><a href="./">Главная</a><a href="smp.html">KaefSMP</a><a href="br.html">KaefBR</a><a href="https://t.me/KaefOnline">Telegram</a></nav>
+    <p>Не связано с Mojang или Microsoft. Minecraft — товарный знак Mojang AB.</p>
+  </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite" data-toast>Адрес скопирован</div>
+<script src="assets/site.js?v=5" defer></script>
+</body>
+</html>
